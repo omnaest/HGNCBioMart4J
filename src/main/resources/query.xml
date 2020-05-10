@@ -1,0 +1,21 @@
+<!DOCTYPE Query>
+<Query client="biomartclient" processor="TSV" limit="-1" header="1">
+	<Dataset name="hgnc_gene_mart" config="hgnc_gene_config">
+		<Attribute name="hgnc_gene__hgnc_gene_id_1010" />
+		<Attribute name="hgnc_gene__status_1010" />
+		<Attribute name="hgnc_gene__approved_symbol_1010" />
+		<Attribute name="hgnc_gene__approved_name_1010" />
+		<Attribute name="hgnc_gene__pubmed__pubmed_id_1030" />
+		<Attribute name="hgnc_gene__enzyme__enzyme_id_105" />
+		<Attribute name="hgnc_gene__uniprot__uniprot_accession_1036" />
+		<Attribute name="hgnc_gene__ensembl_gene__ensembl_gene_id_104" />
+		<Attribute name="hgnc_gene__hgnc_alias_name__alias_name_107" />
+		<Attribute name="hgnc_gene__chromosome_1010" />
+		<Attribute name="hgnc_gene__hgnc_alias_symbol__alias_symbol_108" />
+		<Attribute name="hgnc_gene__chromosome_location_1010" />
+		<Attribute name="hgnc_gene__refseq__refseq_accession_1031" />
+		<Attribute name="hgnc_gene__orphanet__orphanet_id_1028" />
+		<Attribute name="hgnc_gene__omim__omim_id_1027" />
+		<Attribute name="hgnc_gene__iuphar__iuphar_id_1017" />
+	</Dataset>
+</Query>
